@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                git url: 'https://github.com/srinuNuthi/spring-petclinic.git',
-                    branch: 'main'
+                git url: 'https://github.com/srinuNuthi/multiBranchPipeline.git',
+                    branch: 'test'
             }
         }
         stage('print hello world') {

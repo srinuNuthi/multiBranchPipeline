@@ -10,7 +10,7 @@ pipeline {
         }
         stage('print hello world') {
             steps {
-                echo " i am from main branch"
+                echo " i am from test branch"
             }
         }
     }

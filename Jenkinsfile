@@ -13,5 +13,10 @@ pipeline {
                 echo " i am from test branch"
             }
         }
+        stage('print  word') {
+            steps {
+                echo " i am also from test branch"
+            }
+        }
     }
 }
